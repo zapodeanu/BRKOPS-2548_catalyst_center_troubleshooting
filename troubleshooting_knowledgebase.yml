@@ -1,0 +1,17 @@
+---
+BGP_Down:
+  commands:
+    - show running | sec bgp
+    - show logging
+    - show ip interface bri
+    - show cdp neighbors detail
+    - show ip route bgp
+
+EIGRP_Peering:
+  commands:
+    - show running | sec eigrp
+    - show logging, show ip interface bri
+    - show cdp neighbors detail
+    - show ip route eigrp
+    - show ip eigrp neighbors detail
+    - show ip eigrp topology active
